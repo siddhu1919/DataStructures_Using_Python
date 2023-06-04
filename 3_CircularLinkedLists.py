@@ -9,6 +9,7 @@ class Head:
         temp_head = self.head_pointer
         if temp_head == None:
             print("Node Unavailable")
+            
         else:
             while True:
                 print(temp_head.val)
